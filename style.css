@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Blinker';
+}
+/* ---------------------- SEÇÃO HEADER ---------------------- */
+
+header img{
+    width: 100px;
+    height: auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)),url(img/estudio.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 20px 20px 0px 20px;
+}
+
+.logo h1 {
+    color: white;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 5px solid transparent;
+}
+
+nav a:hover{
+    color: #FFC20F;
+    border-bottom: 5px solid #FFC20F;
+}
+
+.header-direita{
+    color: white;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+.header-direita i:hover{
+    color: #FFC20F;
+    cursor: pointer;
+}
+
+.btn-cadastro{
+    background-color: #008C45;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+.btn-cadastro:hover{
+    background-color: #015f30;
+    cursor: pointer;
+}
+.btn-login{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.btn-login:hover{
+    background-color: #FFC20F;
+    color: black;
+    cursor: pointer;
+}
+/* ---------------------- SEÇÃO HEADER ---------------------- */
+
+/* ---------------------- SEÇÃO HOME ---------------------- */
+.home{
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.p-home-comeco{
+    color: #FFC20F;
+    font-size: 20px;
+}
+
+.h2-home-centro{
+    color: white;
+    font-size: 65px;
+    line-height: 55px;
+}
+
+.p-home-fim{
+    color: white;
+    font-size: 14px;
+}
+
+.btn-play{
+    background-color: #FFC20F;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.btn-play i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+/* ---------------------- SEÇÃO HOME ---------------------- */
+
+/* ---------------------- SEÇÃO NOTICIAS ---------------------- */
+
+.ultimas-noticias{
+    background-color: #08121E;
+    padding: 20px 20px 0px 20px;
+}
+
+.programas{
+    background-color: #08121E;
+    padding: 20px 20px 0px 20px;
+}
+
+.superiror-noticias{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.superiror-noticias h2{
+    border-left: 5px solid #FFC20F;
+    padding-left: 10px;
+}
+
+.superiror-noticias p{
+    color: white;
+}
+.cards{
+    display: flex;
+    gap: 18px;
+    background-color: #0C1A29;
+}
+
+.cards img{
+    width: 312px;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
+.cards .noticia{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 314px;
+    height: 342px;
+}
+
+.noticia h2{
+    color: white;
+}
+
+.noticia h3,p{
+    color: #c5c5c585;
+}
+
+.noticia h3{
+    font-weight: normal;
+}
+
+.noticia h2, h3, p{
+    padding: 10px 10px 10px 10px;
+}
+
+.noticia i{
+    padding-right: 5px;
+}
+/* ---------------------- SEÇÃO PROGRAMAS ---------------------- */
+
+.ultimas-programa{
+    background-color: #ffffff;
+    padding: 20px 20px 0px 20px;
+}
+
+.programas{
+    background-color: #ffffff;
+    padding: 20px 20px 0px 20px;
+}
+
+.superiror-programa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+}
+
+.superiror-programa h2{
+    border-left: 5px solid #FFC20F;
+    padding-left: 10px;
+}
+
+.superiror-programa p{
+    color: white;
+}
+.cards-programa{
+    display: flex;
+    gap: 18px;
+    background-color: #ffffff;
+}
+
+.cards-programa img{
+    width: 312px;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
+.cards-programa .programas{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    width: 314px;
+    height: 342px;
+}
+
+.programa h2{
+    color: #08121E;
+}
+
+.programa h3,p{
+    color: #00000085;
+}
+
+.programa h3{
+    font-weight: normal;
+}
+
+.programa h2, h3, p{
+    padding: 10px 10px 10px 10px;
+}
+
+.programa i{
+    padding-right: 5px;
+}
