@@ -1,131 +1,231 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Nicolas Paes Silva">
-        <title>PROJETO - REDE BANDEIRANTES</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <section class="hero">
-            <header>
-                <div class="logo">
-                    <img src="img/logo-band.png" alt="">
-                    <h1>BAND</h1>
-                </div>
-                <nav>
-                    <a href="">HOME</a>
-                    <a href="">NOTÍCIAS</a>
-                    <a href="">TELEVISÃO</a>
-                    <a href="">JORNAL</a>
-                    <a href="">BLOG</a>
-                </nav>
-                <div class="header-direita">
-                    <i id="icone-lupa" class="fa-solid fa-magnifying-glass"></i>
-                    <div class="botoes">
-                        <button class="btn-cadastro">CADASTRE-SE</button>
-                        <button class="btn-login">LOGIN</button>
-                    </div>
-                </div>
-            </header>
-            <section class="home">
-                <p class="p-home-comeco">JORNALISMO DE VERDADE</p>
-                <h2 class="h2-home-centro">A informaçao <br>
-                    que você confia, <br>
-                    sempre com você.
-                </h2>
-                <p class="p-home-fim">
-                    A banda leva até voce o que realmente importa:<br>
-                    notícias, análises e os principais acontecimentos<br>
-                    do Brasil e do mundo.
-                </p>
-                <button class="btn-play"><i class="fa-solid fa-play"></i>ASSISTIR AGORA</button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO - REDE BANDEIRANTES</title>
+    <meta name="author" content="Nicolas Paes Silva">
 
-            </section>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="hero">
+        <header class="header">
+            <div class="logo">
+                <img src="img/logo-band.png" alt="Logo da Band">
+                <h1>BAND</h1>
+            </div>
+
+            <nav class="nav">
+                <a href="#">HOME</a>
+                <a href="#">NOTÍCIAS</a>
+                <a href="#">TELEVISÃO</a>
+                <a href="#">JORNAL</a>
+                <a href="#">BLOG</a>
+            </nav>
+
+            <div class="header-direita">
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <div class="botoes">
+                    <button class="btn-cadastro">CADASTRE-SE</button>
+                    <button class="btn-login">LOGIN</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="home">
+            <p class="p-home-comeco">JORNALISMO DE VERDADE</p>
+
+            <h2 class="h2-home-centro">
+                A informação <br>
+                que você confia, <br>
+                sempre com você.
+            </h2>
+
+            <p class="p-home-fim">
+                A Band leva até você o que realmente importa: <br>
+                notícias, análises e os principais acontecimentos <br>
+                do Brasil e do mundo.
+            </p>
+
+            <button class="btn-play">
+                <i class="fa-solid fa-play"></i>
+                ASSISTIR AGORA
+            </button>
         </section>
-        <main>
-            <!--COMEÇO DA PRIMEIRA SECTION-->
-            <section class="ultimas-noticias">
-                <div class="superiror-noticias">
-                    <h2>Últimas notícas</h2>
-                    <p>Ver todas<i class="fa-solid fa-arrow-right"></i></p>
-                </div>
-                <div class="inferior-noticias">
-                    <div class="cards">
-                        <div class="noticia">
-                            <img src="img/ultimas-noticias-01.webp" alt="">
-                            <h2>Cientistas descobrem nova espécie de dinossauro com penas no nordeste da China</h2>
-                            <h3>Predador media cerca de 57 cm e viveu há mais de 120 milhões de anos</h3>
-                            <p><i class="fa-regular fa-clock"></i>há 1 hora</p>
-                        </div>
-                        <div class="noticia">
-                            <img src="img/ultimas-noticias-02.webp" alt="">
-                            <h2>Terremoto de magnitude 5 atinge a Venezuela, segundo agência dos EUA</h2>
-                            <h3>Tremor teve epicentro no oceano, próximo à Península de Parla</h3>
-                            <p><i class="fa-regular fa-clock"></i>há 2 horas</p>
-                        </div>
-                        <div class="noticia">
-                            <img src="img/ultimas-noticias-03.webp" alt="">
-                            <h2>PF prende três suspeitos de compra de votos no Estado de Roraima</h2>
-                            <h3>Após receber denúncia, os agentes localizaram boca de urna</h3>
-                            <p><i class="fa-regular fa-clock"></i>há 3 horas</p>
-                        </div>
-                        <div class="noticia">
-                            <img src="img/ultimas-noticias-04.webp" alt="">
-                            <h2>Diretor da PF diz que não há riscos para embaixadas em Brasília</h2>
-                            <h3>Investigação foi aberta após alerta de ameaça</h3>
-                            <p><i class="fa-regular fa-clock"></i>há 4 horas</p>
-                        </div>
+    </section>
+
+    <main>
+        <!-- INÍCIO DA PRIMEIRA SECTION -->
+        <section class="ultimas-noticias">
+            <div class="superior-noticias">
+                <h2>Últimas notícias</h2>
+                <p>Ver todas <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+
+            <div class="inferior-noticias">
+                <div class="cards">
+                    <div class="noticia">
+                        <img src="img/ultimas-noticias-01.webp" alt="">
+                        <h2>Cientistas descobrem nova espécie de dinossauro com penas no nordeste da China</h2>
+                        <h3>Predador media cerca de 57 cm e viveu há mais de 120 milhões de anos</h3>
+                        <p><i class="fa-regular fa-clock"></i>há 1 hora</p>
+                    </div>
+
+                    <div class="noticia">
+                        <img src="img/ultimas-noticias-02.webp" alt="">
+                        <h2>Terremoto de magnitude 5 atinge a Venezuela, segundo agência dos EUA</h2>
+                        <h3>Tremor teve epicentro no oceano, próximo à Península de Parla</h3>
+                        <p><i class="fa-regular fa-clock"></i>há 2 horas</p>
+                    </div>
+
+                    <div class="noticia">
+                        <img src="img/ultimas-noticias-03.webp" alt="">
+                        <h2>PF prende três suspeitos de compra de votos no Estado de Roraima</h2>
+                        <h3>Após receber denúncia, os agentes localizaram boca de urna</h3>
+                        <p><i class="fa-regular fa-clock"></i>há 3 horas</p>
+                    </div>
+
+                    <div class="noticia">
+                        <img src="img/ultimas-noticias-04.webp" alt="">
+                        <h2>Diretor da PF diz que não há riscos para embaixadas em Brasília</h2>
+                        <h3>Investigação foi aberta após alerta de ameaça</h3>
+                        <p><i class="fa-regular fa-clock"></i>há 4 horas</p>
                     </div>
                 </div>
-            </section>
-            
-            <!--FIM DA PRIMEIRA SECTION-->
+            </div>
+        </section>
+        <!-- FIM DA PRIMEIRA SECTION -->
 
-            <!-- INCIO DA SEGUNDA SECTION-->
-            <section class="programas">
-                <div class="superiror-programas">
-                    <h2>Programas</h2>
-                    <p>Ver programação<i class="fa-solid fa-arrow-right"></i></p>
-                </div>
-                <div class="inferior-progrmas">
-                    <div class="cards-programa">
-                        <div class="programa">
-                            <img src="img/programa_01.jpg" alt="">
-                            <h2>Brasil Urgente</h2>
-                            <h3>Seg a Sex º 16h00</h3>
-                            <p><i class="fa-regular fa-clock"></i>As notícias em tempo real com credibilidade e agilidade</p>
-                        </div>
-                        <div class="programa">
-                            <img src="img/programa_02.webp" alt="">
-                            <h2>MasterChef Brasil</h2>
-                            <h3>Ter a Qui º 22h30</h3>
-                            <p><i class="fa-regular fa-clock"></i>Os melhores cozinheiros do Brasil disputam o grande prêmio</p>
-                        </div>
-                        <div class="programa">
-                            <img src="img/programa_03.jpg" alt="">
-                            <h2>Jornal da Band</h2>
-                            <h3>Seg a Sex º 19h20</h3>
-                            <p><i class="fa-regular fa-clock"></i>O principal telejornal da Band, com as notícias do Brasil e do mundo./p>
-                        </div>
-                        <div class="programa">
-                            <img src="img/programa_04.jpg" alt="">
-                            <h2>Perrengue na Band</h2>
-                            <h3>Sab º 20h30</h3>
-                            <p><i class="fa-regular fa-clock"></i>Humor, desafios e muitas aventuras em equipe.</p>
-                        </div>
+        <!-- INÍCIO DA SEGUNDA SECTION -->
+        <section class="programas">
+            <div class="superior-programas">
+                <h2>Programas da TV Band</h2>
+                <p>Ver programação <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+
+            <div class="inferior-programas">
+                <div class="cards">
+                    <div class="programa">
+                        <img src="img/programa_01.jpg" alt="">
+                        <h2>Brasil Urgente</h2>
+                        <h3>Seg a Sex º 16h00</h3>
+                        <p>As notícias em tempo real com credibilidade e agilidade</p>
+                    </div>
+
+                    <div class="programa">
+                        <img src="img/programa_02.webp" alt="">
+                        <h2>MasterChef Brasil</h2>
+                        <h3>Ter a Qui º 22h30</h3>
+                        <p>Os melhores cozinheiros do Brasil disputam o grande prêmio</p>
+                    </div>
+
+                    <div class="programa">
+                        <img src="img/programa_03.jpg" alt="">
+                        <h2>Jornal da Band</h2>
+                        <h3>Seg a Sex º 19h20</h3>
+                        <p>O principal telejornal da Band, com as notícias do Brasil e do mundo.</p>
+                    </div>
+
+                    <div class="programa">
+                        <img src="img/programa_04.jpg" alt="">
+                        <h2>Perrengue na Band</h2>
+                        <h3>Sab º 20h30</h3>
+                        <p>Humor, desafios e muitas aventuras em equipe.</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
+        <!-- FIM DA SEGUNDA SECTION -->
 
-        </main>
-        <footer>
+        <!-- INÍCIO DA TERCEIRA SECTION -->
+        <section class="jornal">
+            <div class="esquerda-jornal">
+                <h2 class="h2-jornal-comeco">
+                    <i class="fa-solid fa-circle-play"></i>
+                    Assista à Band ao vivo
+                </h2>
 
-        </footer>
-        <script src="https://kit.fontawesome.com/39bc1d7c21.js" crossorigin="anonymous"></script>    
-    </body>
+                <p class="p-jornal-centro">
+                    Acompanhe nossa programação em tempo real, <br>
+                    no seu computador, celular ou smart TV.
+                </p>
+
+                <button class="btn-play">
+                    <i class="fa-solid fa-play"></i>
+                    ASSISTIR AGORA
+                </button>
+            </div>
+
+            <div class="centro-jornal">
+                <div class="tela">
+                    <div class="ao-vivo">
+                        <button class="btn-aovivo">
+                            <i class="fa-solid fa-play"></i>
+                            AO VIVO
+                        </button>
+                    </div>
+
+                    <div class="logo-tela">
+                        <img src="img/logo-band.png" alt="Logo da Band">
+                        <h1>BAND</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="direita-jornal">
+                <p>Canais</p>
+                <hr>
+                <p>🟡 BAND <i class="fa-solid fa-chevron-right"></i></p>
+                <hr>
+                <p>🔵 BAND SPORTS <i class="fa-solid fa-chevron-right"></i></p>
+                <hr>
+                <p>🟣 BAND NEWS <i class="fa-solid fa-chevron-right"></i></p>
+                <hr>
+                <p>🟢 BAND INTERNACIONAL <i class="fa-solid fa-chevron-right"></i></p>
+                <hr>
+            </div>
+        </section>
+        <!-- FIM DA TERCEIRA SECTION -->
+    </main>
+
+    <hr>
+
+    <footer class="footer">
+        <div class="footer-info">
+            <div class="logo">
+                <img src="img/logo-band.png" alt="Logo da Band">
+                <h1>BAND</h1>
+            </div>
+
+            <nav class="nav">
+                <a href="#">HOME</a>
+                <a href="#">NOTÍCIAS</a>
+                <a href="#">TELEVISÃO</a>
+                <a href="#">JORNAL</a>
+                <a href="#">BLOG</a>
+            </nav>
+
+            <div class="footer-direita">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-x"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+        </div>
+
+        <p class="p-footer-inferior">
+            &copy; Projeto Educativo - Nicolas Paes 2026
+        </p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/eb03b9e321.js" crossorigin="anonymous"></script>
+</body>
 </html>
